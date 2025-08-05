@@ -19,7 +19,7 @@ Durante o desenvolvimento deste projeto, foram aplicados os seguintes conceitos:
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - HTML5  
 - CSS3   
@@ -28,7 +28,7 @@ Durante o desenvolvimento deste projeto, foram aplicados os seguintes conceitos:
 
 ---
 
-## 👨‍🏫 Créditos
+## Créditos
 
 Projeto desenvolvido como parte do curso:
 
