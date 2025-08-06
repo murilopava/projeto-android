@@ -11,7 +11,6 @@ header {
     background-image: linear-gradient(to bottom, #3CDD82, #1A6138);
     padding: 10px;
     margin: 0px;
-    
 }
 
 header > h1 {
@@ -37,6 +36,7 @@ header > p {
 
 div#menu {
     background-color: #1A5D39;
+    box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.281);
 }
 .menu {
     padding: 5px;
@@ -45,14 +45,34 @@ div#menu {
 }
 
 .menu:hover {
-    
+    background-color: wheat;
 }
 
 main {
     background-color: white;
-    margin: 0px 200px;
+    margin: 0px 100px;
+    padding: 10px;
 }
 
 main > h1 {
     margin-top: 0px;
+}
+
+main > p {
+    text-align: justify;
+}
+
+main > img {
+    text-align: center;
+}
+
+.imagem {
+    text-align: center;
+    }
+
+div#video {
+    text-align: center;
+    background-color: #1A5D39;
+    margin: 0px 100px;
+    padding: 10px;
 }
