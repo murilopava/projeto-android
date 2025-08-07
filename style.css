@@ -55,6 +55,7 @@ div#menu {
 
 .menu:hover {
     background-color: rgba(196, 195, 194, 0.199);
+    border-radius: 5px;
 }
 
 main {
