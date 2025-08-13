@@ -11,13 +11,15 @@ body {
     background-color: #8be7b3;
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
 }
 
 header {
     background-image: linear-gradient(to bottom, #3CDD82, #1A6138);
     padding: 10px;
     margin: 0px;
-    height: 150px;
+    min-height: 150px;
+    max-height: 300px;
 }
 
 header > h1 {
@@ -41,7 +43,7 @@ header > p {
     color: whitesmoke;
 }
 
-div#menu {
+nav {
     background-color: #1A5D39;
     box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.281);
 }
@@ -56,19 +58,21 @@ div#menu {
 .menu:hover {
     background-color: rgba(196, 195, 194, 0.199);
     border-radius: 5px;
+    transition-duration: 0.2s;
 }
 
 main {
     background-color: white;
     margin: 0px auto;
-    padding: 10px 0px;
-    width: 100vh;
+    padding: 20px;
+    min-width: 320px;
+    max-width: 850px;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.534);
+    border-radius: 0px 0px 10px 10px;
 }
 
 main > h1 {
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.281);
-    padding: 0px 20px;
     font-size: 2.3em;
     font-family: 'android';
     color: #1e6b3e;
@@ -77,36 +81,43 @@ main > h1 {
 main > h2 {
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.281);
     color: #1e6b3e;
-    margin-top: 0px;
-    margin-left: 20px;
     font-family: 'android';
     background-image: linear-gradient(to right, #8be9b793, rgba(255, 255, 255, 0));
     padding: 1px 12px;
 }
 
 main > p {
-    padding: 0px 20px;
     text-align: justify;
     text-indent: 40px;
 }
 
+main > picture > img {
+    display: flex;
+    margin: auto;
+    width: 100%;
+}
+
 main > img {
-    text-align: center;
+    display: block;
+    margin: auto;
+    max-width: 350px;
 }
 
-.imagem {
-    text-align: center;
-    }
 
-div#video {
-    text-align: center;
+.video {
     background-color: #1A5D39;
-    margin: 0px auto;
+    margin: 0px -20px 30px -20px;
     padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
 }
 
-main > div {
-    padding: 0px 20px;
+.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 
 main > div > h3{
@@ -127,17 +138,15 @@ main > div > p{
 
 main > div > ul{
     background-color: #aff8ce;
-    padding: 10px 30px;
     margin: 0px;
-    text-decoration: underline;
+    padding: 10px 10px;
+    list-style-position: inside;
+    columns: 2;
+    list-style-type: '\2714\00A0\00A0';
 }
 
 main > div > p#footer {
     border-radius: 0px 0px 10px 10px;
-}
-
-p {
-    font-size: 18px;
 }
 
 footer > p{
@@ -151,15 +160,11 @@ footer > p{
     font-size: medium;
 }
 
-main#footer {
-    border-radius: 0px 0px 10px 10px;
-}
-
-strong#markup {
+.destaque {
     color: #1e6b3e;
 }
 
-a#markup {
+.link {
     padding-left: 5px;
     background-color: #72e7a3a1;
     text-decoration: none;
@@ -167,7 +172,7 @@ a#markup {
     font-weight: bold;
 }
 
-a#markup:hover {
+.link:hover {
     background-color: #72e7a356;
     text-decoration: underline;
 }
