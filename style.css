@@ -172,6 +172,10 @@ footer > p{
     font-weight: bold;
 }
 
+.link::after {
+    content: '\00A0\1F517';
+}
+
 .link:hover {
     background-color: #72e7a356;
     text-decoration: underline;
